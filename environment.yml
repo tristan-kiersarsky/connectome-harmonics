@@ -1,4 +1,4 @@
-name: cmp3-tutorial
+name: connectome-harmonics
 channels:
   - conda-forge
   - desilinguist

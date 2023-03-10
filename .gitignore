@@ -1,0 +1,4 @@
+scratchwork/
+data/
+*.pyc
+*/.ipynb_checkpoints/*
