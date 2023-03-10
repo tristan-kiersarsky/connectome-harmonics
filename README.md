@@ -7,13 +7,13 @@ To set up and activate the required conda environment, run
 
 ```
 conda env create -f environment.yaml
-conda activate connectome
+conda activate connectome-harmonics
 ```
 
 To add this environment to jupyter, you'll need to run
 
 ```
-python -m ipykernel install --user --name connectome
+python -m ipykernel install --user --name connectome-harmonics
 ```
 
 You will need to download the `.mat` data files and put them in `/data`. You can get them from [Google drive](https://drive.google.com/drive/folders/1qF3CdcsS3G2GVLfHqXqB-sN225s00xYV).
