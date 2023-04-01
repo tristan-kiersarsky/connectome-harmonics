@@ -11,7 +11,7 @@ def resample_edges(adjacency_matrices):
 
     resampled_matrices = np.zeros_like(adjacency_matrices)
 
-    for index in adjacency_matrices.shape[-1]:
+    for index in range(adjacency_matrices.shape[-1]):
         matrix = adjacency_matrices[:, :, index]
         # Randomly sample a new weight for each edge
         new_weights = np.random.choice(matrix.flatten(), size=matrix.size)
